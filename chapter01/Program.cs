@@ -1,3 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿
+using chapter01;
 
-string name = typeof(Program).Namespace ?? "<NULL>";
+Console.WriteLine("");
