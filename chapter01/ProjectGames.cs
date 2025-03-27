@@ -26,5 +26,21 @@
             //error:  ms = "Hello Be";
             Console.WriteLine($"the message count is {msCount + 5}");
         }
+
+        public static async Task Way() 
+        {
+            Console.WriteLine("Init The call");
+            await Task.Delay(2000);
+            Console.WriteLine("End The call");
+        }
+
+        public static async Task<string> WayWithReturn()
+        {
+            Console.WriteLine("Init The call");
+            await Task.Delay(2000);
+            Console.WriteLine("End The call");
+            return "The call is done";
+        }
+
     }
 }

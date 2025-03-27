@@ -1,0 +1,18 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/chapter01/bin/Debug/net9.0
+/chapter01/obj/Debug/net9.0/refint
+/chapter01/obj/Debug/net9.0/ref
+*.pdb
+*.exe
+*.BuildWithSkipAnalyzers
+/chapter01/obj/Debug/net9.0/chapter01.assets.cache
+/chapter01/obj/Debug/net9.0/chapter01.AssemblyInfoInputs.cache
+*.txt
+*.dll
+*.cache
+/chapter01/obj/Debug/net9.0/chapter01.GeneratedMSBuildEditorConfig.editorconfig
+*.json
